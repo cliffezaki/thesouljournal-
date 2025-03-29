@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Soul Journal</title>
+    <style>
+        body {
+            background-color: #F5F5F5;
+            color: #222222;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333333;
+            color: #80CBC4;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .featured-image {
+            width: 100%;
+            height: auto;
+        }
+        .read-more {
+            background-color: #E0C2A3;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333333;
+            color: white;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #80CBC4;
+            text-decoration: none;
+        }
+        .subscribe-form input {
+            padding: 10px;
+            width: 80%;
+            margin-top: 10px;
+        }
+        .subscribe-form button {
+            background-color: #80CBC4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        THE SOUL JOURNAL
+        <p style="font-size: 16px; color: #EEEEEE;">Make the human story your understanding of the world</p>
+    </header>
+    <div class="container">
+        <h2>Welcome to The Soul Journal</h2>
+        <img src="featured-image.jpg" alt="Featured Story" class="featured-image">
+        <p>Explore our latest creative story that inspires and provokes thought.</p>
+        <a href="#" class="read-more">Read More</a>
+        
+        <h3>Subscribe to Our Newsletter</h3>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2025 The Soul Journal</p>
+    </footer>
+</body>
+</html>
